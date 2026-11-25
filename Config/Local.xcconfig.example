@@ -1,0 +1,4 @@
+// Copy to Config/Local.xcconfig (git-ignored) and point at your relay.
+// The $() keeps xcconfig from reading // as a comment.
+// The app reads /v2/targets; an old /v1/vessels address still works (the app connects to /v2/targets instead).
+RELAY_URL = ws:/$()/relay-box.local:8080/v2/targets

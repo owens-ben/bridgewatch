@@ -1,0 +1,1236 @@
+{
+  "type": "snapshot",
+  "targets": [
+    {
+      "id": "train:nyct:117260_A..N55R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.692338,
+      "lon": -73.987342,
+      "altitude": 8.2,
+      "speed": 0,
+      "course": 2.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "A",
+        "direction": "N",
+        "destination": "Inwood-207 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:117330_B..N66R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.703181,
+      "lon": -73.988208,
+      "altitude": 34.8,
+      "speed": 24.2,
+      "course": 337.2,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "B",
+        "direction": "N",
+        "destination": "145 St",
+        "stretch": "manhattan-bridge",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:117410_G..S14R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.673829,
+      "lon": -73.996293,
+      "altitude": 29.7,
+      "speed": 15.4,
+      "course": 138.4,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "G",
+        "direction": "S",
+        "destination": "Church Av",
+        "stretch": "culver-viaduct",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:117470_J..S12R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.718092,
+      "lon": -73.999892,
+      "altitude": -1.5,
+      "speed": 0,
+      "course": 211.3,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "J",
+        "direction": "S",
+        "destination": "Broad St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:117520_L..N",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.730953,
+      "lon": -73.981628,
+      "altitude": -0.1,
+      "speed": 0,
+      "course": 299.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "L",
+        "direction": "N",
+        "destination": "8 Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:117570_1..S15R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.722854,
+      "lon": -74.006277,
+      "altitude": -3.2,
+      "speed": 0,
+      "course": 187.4,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "1",
+        "direction": "S",
+        "destination": "South Ferry",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:117620_N..S72R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.713282,
+      "lon": -74.006978,
+      "altitude": 6,
+      "speed": 0,
+      "course": 212.4,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "W",
+        "direction": "S",
+        "destination": "Whitehall St-South Ferry",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:117640_A..S58R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.693313,
+      "lon": -73.987295,
+      "altitude": 7.3,
+      "speed": 21.1,
+      "course": 182.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "A",
+        "direction": "S",
+        "destination": "Far Rockaway-Mott Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:117720_B..N66R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.712899,
+      "lon": -73.993604,
+      "altitude": 27.1,
+      "speed": 24.7,
+      "course": 337.2,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "B",
+        "direction": "N",
+        "destination": "145 St",
+        "stretch": "manhattan-bridge",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:117790_G..N14R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.688484,
+      "lon": -73.985001,
+      "altitude": 7.8,
+      "speed": 0,
+      "course": 117.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "G",
+        "direction": "N",
+        "destination": "Court Sq",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:117860_J..S12R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.708359,
+      "lon": -73.957757,
+      "altitude": 19.9,
+      "speed": 0,
+      "course": 294.3,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "J",
+        "direction": "S",
+        "destination": "Broad St",
+        "stretch": "williamsburg-bridge",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:117930_L..N",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.727649,
+      "lon": -73.973842,
+      "altitude": -14.8,
+      "speed": 24,
+      "course": 299.2,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "L",
+        "direction": "N",
+        "destination": "8 Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:117950_1..N15R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.722854,
+      "lon": -74.006277,
+      "altitude": -3.2,
+      "speed": 0,
+      "course": 7.3,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "1",
+        "direction": "N",
+        "destination": "Van Cortlandt Park-242 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:118000_N..N31R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.703634,
+      "lon": -73.988749,
+      "altitude": 36.8,
+      "speed": 20.2,
+      "course": 337.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "N",
+        "direction": "N",
+        "destination": "Astoria-Ditmars Blvd",
+        "stretch": "manhattan-bridge",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:118060_D..S07R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.70802,
+      "lon": -73.990895,
+      "altitude": 43.9,
+      "speed": 21.6,
+      "course": 157.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "D",
+        "direction": "S",
+        "destination": "Coney Island-Stillwell Av",
+        "stretch": "manhattan-bridge",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:118120_C..N04R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.710197,
+      "lon": -74.007691,
+      "altitude": 4.9,
+      "speed": 0,
+      "course": 303.6,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "C",
+        "direction": "N",
+        "destination": "168 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:118130_G..S14R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.688484,
+      "lon": -73.985001,
+      "altitude": 7.8,
+      "speed": 0,
+      "course": 297.2,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "G",
+        "direction": "S",
+        "destination": "Church Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:118300_L..S",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.732849,
+      "lon": -73.986122,
+      "altitude": 4,
+      "speed": 0,
+      "course": 119.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "L",
+        "direction": "S",
+        "destination": "Canarsie-Rockaway Pkwy",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:118310_2..S17R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.675235,
+      "lon": -73.971046,
+      "altitude": 30.7,
+      "speed": 0,
+      "course": 148.9,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "2",
+        "direction": "S",
+        "destination": "Flatbush Av-Brooklyn College",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:118360_N..S34R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.718383,
+      "lon": -74.00046,
+      "altitude": -1.7,
+      "speed": 0,
+      "course": 133.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "N",
+        "direction": "S",
+        "destination": "Coney Island-Stillwell Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:118410_D..S07R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.690964,
+      "lon": -73.981995,
+      "altitude": 10.2,
+      "speed": 14.4,
+      "course": 158.5,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "D",
+        "direction": "S",
+        "destination": "Coney Island-Stillwell Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:118500_G..N14R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.678233,
+      "lon": -73.996351,
+      "altitude": 13.8,
+      "speed": 12.4,
+      "course": 20.6,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "G",
+        "direction": "N",
+        "destination": "Court Sq",
+        "stretch": "culver-viaduct",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:118580_J..N41R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.72028,
+      "lon": -73.993915,
+      "altitude": 5.9,
+      "speed": 0,
+      "course": 111.8,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "J",
+        "direction": "N",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:118690_2..S17R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.702957,
+      "lon": -74.00768,
+      "altitude": -12.8,
+      "speed": 13.8,
+      "course": 139.3,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "2",
+        "direction": "S",
+        "destination": "Flatbush Av-Brooklyn College",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:118770_D..N07R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.725297,
+      "lon": -73.996204,
+      "altitude": 6.9,
+      "speed": 0,
+      "course": 294.7,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "D",
+        "direction": "N",
+        "destination": "Norwood-205 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:118940_E..S69R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.726227,
+      "lon": -74.003739,
+      "altitude": 1.7,
+      "speed": 0,
+      "course": 197,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "E",
+        "direction": "S",
+        "destination": "World Trade Center",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:119050_2..N14R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.715478,
+      "lon": -74.009266,
+      "altitude": 0.9,
+      "speed": 0,
+      "course": 30.9,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "2",
+        "direction": "N",
+        "destination": "Wakefield-241 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:119090_N..N72R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.730328,
+      "lon": -73.992629,
+      "altitude": 5.4,
+      "speed": 0,
+      "course": 32.7,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "W",
+        "direction": "N",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:119130_D..S08X007",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.718267,
+      "lon": -73.993753,
+      "altitude": 5,
+      "speed": 0,
+      "course": 200.9,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "D",
+        "direction": "S",
+        "destination": "Bay Pkwy",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:119330_J..S12R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.713988,
+      "lon": -73.973503,
+      "altitude": 42.4,
+      "speed": 20.6,
+      "course": 291.9,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "Z",
+        "direction": "N",
+        "stretch": "williamsburg-bridge",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:119370_E..N72R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.717806,
+      "lon": -74.005671,
+      "altitude": -1.6,
+      "speed": 12.2,
+      "course": 30.8,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "E",
+        "direction": "N",
+        "destination": "Jamaica Center-York College",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:119420_2..N14R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.693219,
+      "lon": -73.989998,
+      "altitude": 14.3,
+      "speed": 0,
+      "course": 340.3,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "2",
+        "direction": "N",
+        "destination": "Wakefield-241 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:119450_F..S54R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.670272,
+      "lon": -73.989779,
+      "altitude": 18.6,
+      "speed": 0,
+      "course": 122.3,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "F",
+        "direction": "S",
+        "destination": "Coney Island-Stillwell Av",
+        "stretch": "culver-viaduct",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:119780_3..S06R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.688246,
+      "lon": -73.980492,
+      "altitude": 5.1,
+      "speed": 0,
+      "course": 151.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "3",
+        "direction": "S",
+        "destination": "New Lots Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:119820_A..S",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.732338,
+      "lon": -74.000495,
+      "altitude": -1.1,
+      "speed": 0,
+      "course": 208.6,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "A",
+        "direction": "S",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:119830_F..N54R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.67358,
+      "lon": -73.995959,
+      "altitude": 29.3,
+      "speed": 0,
+      "course": 314.4,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "F",
+        "direction": "N",
+        "destination": "Jamaica-179 St",
+        "stretch": "culver-viaduct",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:119830_Q..N",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.718383,
+      "lon": -74.00046,
+      "altitude": -1.7,
+      "speed": 0,
+      "course": 313.4,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "Q",
+        "direction": "N",
+        "destination": "96 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:120150_3..S06R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.713051,
+      "lon": -74.008811,
+      "altitude": 3.6,
+      "speed": 0,
+      "course": 121,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "3",
+        "direction": "S",
+        "destination": "New Lots Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:120160_F..S54R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.713715,
+      "lon": -73.990173,
+      "altitude": 2.9,
+      "speed": 0,
+      "course": 175.5,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "F",
+        "direction": "S",
+        "destination": "Coney Island-Stillwell Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:120190_Q..N36R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.72368,
+      "lon": -73.998242,
+      "altitude": 1.6,
+      "speed": 15.2,
+      "course": 32.6,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "Q",
+        "direction": "N",
+        "destination": "96 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:120250_C..S04R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.688484,
+      "lon": -73.985001,
+      "altitude": 7.8,
+      "speed": 0,
+      "course": 117.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "C",
+        "direction": "S",
+        "destination": "Euclid Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:120510_3..N01R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.706821,
+      "lon": -74.0091,
+      "altitude": 3,
+      "speed": 0,
+      "course": 34.5,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "3",
+        "direction": "N",
+        "destination": "Harlem-148 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:120520_F..N54R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.707638,
+      "lon": -73.987831,
+      "altitude": -25.7,
+      "speed": 15.4,
+      "course": 330.5,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "F",
+        "direction": "N",
+        "destination": "Jamaica-179 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:120560_Q..N36R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.690635,
+      "lon": -73.981824,
+      "altitude": 6.7,
+      "speed": 0,
+      "course": 339.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "Q",
+        "direction": "N",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:120610_E..N72R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.731372,
+      "lon": -74.00119,
+      "altitude": -0.6,
+      "speed": 11.9,
+      "course": 28.6,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "E",
+        "direction": "N",
+        "destination": "Jamaica Center-York College",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:120880_4..S06R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.717277,
+      "lon": -74.00156,
+      "altitude": 1.3,
+      "speed": 19.7,
+      "course": 214.2,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "4",
+        "direction": "S",
+        "destination": "Crown Hts-Utica Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:120880_F..S54R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.692338,
+      "lon": -73.987342,
+      "altitude": 8.2,
+      "speed": 0,
+      "course": 182.9,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "F",
+        "direction": "S",
+        "destination": "Coney Island-Stillwell Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:120930_Q..S36R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.704624,
+      "lon": -73.989301,
+      "altitude": 40.6,
+      "speed": 17.2,
+      "course": 157.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "Q",
+        "direction": "S",
+        "destination": "Coney Island-Stillwell Av",
+        "stretch": "manhattan-bridge",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:121040_A..N20X002",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.692338,
+      "lon": -73.987342,
+      "altitude": 8.2,
+      "speed": 0,
+      "course": 2.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "A",
+        "direction": "N",
+        "destination": "Inwood-207 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:121240_4..N06R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.713065,
+      "lon": -74.004131,
+      "altitude": 4.7,
+      "speed": 0,
+      "course": 33.3,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "4",
+        "direction": "N",
+        "destination": "Woodlawn",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:121290_Q..S36R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.696185,
+      "lon": -73.984684,
+      "altitude": 7.9,
+      "speed": 21.5,
+      "course": 159.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "Q",
+        "direction": "S",
+        "destination": "Coney Island-Stillwell Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:121610_5..S38R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.707557,
+      "lon": -74.011862,
+      "altitude": 4.7,
+      "speed": 0,
+      "course": 212.5,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "5",
+        "direction": "S",
+        "destination": "Bowling Green",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:121660_Q..N36R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.68446,
+      "lon": -73.97689,
+      "altitude": 7,
+      "speed": 0,
+      "course": 351.7,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "Q",
+        "direction": "N",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:121990_5..N48R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.707557,
+      "lon": -74.011862,
+      "altitude": 4.7,
+      "speed": 0,
+      "course": 32.4,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "5",
+        "direction": "N",
+        "destination": "Eastchester-Dyre Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:122020_Q..S36R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.67705,
+      "lon": -73.972367,
+      "altitude": 24.6,
+      "speed": 0,
+      "course": 151.5,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "Q",
+        "direction": "S",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:122250_M..S24R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.712208,
+      "lon": -73.967635,
+      "altitude": 36.7,
+      "speed": 18.4,
+      "course": 111.9,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "M",
+        "direction": "S",
+        "destination": "Middle Village-Metropolitan Av",
+        "stretch": "williamsburg-bridge",
+        "underground": false,
+        "altitudeEstimated": false
+      }
+    },
+    {
+      "id": "train:nyct:122350_5..N48R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.692404,
+      "lon": -73.990151,
+      "altitude": 12.1,
+      "speed": 19.4,
+      "course": 281.2,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "5",
+        "direction": "N",
+        "destination": "Eastchester-Dyre Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:122390_R..S71R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.677316,
+      "lon": -73.98311,
+      "altitude": 0.7,
+      "speed": 0,
+      "course": 207.2,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "R",
+        "direction": "S",
+        "destination": "Bay Ridge-95 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:122660_M..S24R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.725297,
+      "lon": -73.996204,
+      "altitude": 6.9,
+      "speed": 0,
+      "course": 111.9,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "M",
+        "direction": "S",
+        "destination": "Middle Village-Metropolitan Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:122720_6..S01R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.730054,
+      "lon": -73.99107,
+      "altitude": 6.3,
+      "speed": 0,
+      "course": 228.9,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "6",
+        "direction": "S",
+        "destination": "Brooklyn Bridge-City Hall",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:122750_R..S71R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.6941,
+      "lon": -73.991777,
+      "altitude": 17.2,
+      "speed": 0,
+      "course": 110.1,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "R",
+        "direction": "S",
+        "destination": "Bay Ridge-95 St",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:123030_M..N24R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.732338,
+      "lon": -74.000495,
+      "altitude": -1.1,
+      "speed": 0,
+      "course": 28.9,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "M",
+        "direction": "N",
+        "destination": "Forest Hills-71 Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:123080_6..N01R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.730054,
+      "lon": -73.99107,
+      "altitude": 6.3,
+      "speed": 0,
+      "course": 45.5,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "6",
+        "direction": "N",
+        "destination": "Pelham Bay Park",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:123110_R..N93R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.724329,
+      "lon": -73.997702,
+      "altitude": 5.9,
+      "speed": 0,
+      "course": 32.7,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "R",
+        "direction": "N",
+        "destination": "Forest Hills-71 Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:123380_FS.N01R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.67863,
+      "lon": -73.956233,
+      "altitude": 31,
+      "speed": 10.8,
+      "course": 15.3,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "FS",
+        "direction": "N",
+        "destination": "Franklin Av",
+        "stretch": "franklin-av",
+        "underground": false,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:123450_6..N01R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.718803,
+      "lon": -74.000193,
+      "altitude": -1.7,
+      "speed": 0,
+      "course": 34.7,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "6",
+        "direction": "N",
+        "destination": "Pelham Bay Park",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:123480_R..N93R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.683666,
+      "lon": -73.97881,
+      "altitude": 6.8,
+      "speed": 0,
+      "course": 26.3,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "R",
+        "direction": "N",
+        "destination": "Forest Hills-71 Av",
+        "underground": true,
+        "altitudeEstimated": true
+      }
+    },
+    {
+      "id": "train:nyct:124090_FS.N01R",
+      "kind": "train",
+      "source": "mta-subway",
+      "lat": 40.678389,
+      "lon": -73.95632,
+      "altitude": 31.3,
+      "speed": 10.8,
+      "course": 15.2,
+      "timestamp": "2026-11-10T14:12:00.000Z",
+      "train": {
+        "route": "FS",
+        "direction": "N",
+        "destination": "Franklin Av",
+        "stretch": "franklin-av",
+        "underground": false,
+        "altitudeEstimated": true
+      }
+    }
+  ]
+}

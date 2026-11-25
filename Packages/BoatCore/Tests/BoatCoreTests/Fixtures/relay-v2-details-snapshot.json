@@ -1,0 +1,123 @@
+{
+  "type": "snapshot",
+  "targets": [
+    {
+      "id": "vessel:367000010",
+      "kind": "vessel",
+      "source": "aisstream",
+      "name": "EAST RIVER QUEEN",
+      "lat": 40.7011,
+      "lon": -73.9899,
+      "speed": 3,
+      "course": 90,
+      "heading": 91,
+      "timestamp": "2026-11-10T14:02:05.000Z",
+      "vessel": {
+        "mmsi": 367000010,
+        "shipType": 69,
+        "imo": 9123453,
+        "callSign": "WDB1234",
+        "destination": "PIER 11 WALL ST",
+        "eta": {
+          "month": 11,
+          "day": 10,
+          "hour": 18,
+          "minute": 45
+        },
+        "length": 158,
+        "beam": 28,
+        "draught": 6.4,
+        "navStatus": 5
+      }
+    },
+    {
+      "id": "vessel:367000011",
+      "kind": "vessel",
+      "source": "aisstream",
+      "name": "SENTINEL ONE",
+      "lat": 40.7121,
+      "lon": -73.9799,
+      "speed": 3,
+      "course": 90,
+      "heading": 91,
+      "timestamp": "2026-11-10T14:02:35.000Z",
+      "vessel": {
+        "mmsi": 367000011,
+        "shipType": 70
+      }
+    },
+    {
+      "id": "vessel:367000012",
+      "kind": "vessel",
+      "source": "aisstream",
+      "name": "DIRTY TEXT",
+      "lat": 40.7201,
+      "lon": -73.9699,
+      "speed": 3,
+      "course": 90,
+      "heading": 91,
+      "timestamp": "2026-11-10T14:03:05.000Z",
+      "vessel": {
+        "mmsi": 367000012,
+        "shipType": 37,
+        "imo": 1000000,
+        "callSign": "WD C 99",
+        "destination": "NEW YORK HARBOR ANCH",
+        "length": 12,
+        "draught": 1.3
+      }
+    },
+    {
+      "id": "vessel:367000013",
+      "kind": "vessel",
+      "source": "aisstream",
+      "name": "TWO STEP",
+      "lat": 40.7055,
+      "lon": -73.9845,
+      "speed": 3,
+      "course": 90,
+      "heading": 91,
+      "timestamp": "2026-11-10T14:03:45.000Z",
+      "vessel": {
+        "mmsi": 367000013,
+        "shipType": 60,
+        "imo": 9111111,
+        "callSign": "WDC0001",
+        "destination": "GOVERNORS IS",
+        "eta": {
+          "month": 11,
+          "day": 11,
+          "hour": 9,
+          "minute": 30
+        },
+        "length": 40,
+        "beam": 10,
+        "draught": 3,
+        "navStatus": 0
+      }
+    },
+    {
+      "id": "vessel:367000014",
+      "kind": "vessel",
+      "source": "aisstream",
+      "lat": 40.703,
+      "lon": -73.993,
+      "speed": 3,
+      "course": 90,
+      "heading": 91,
+      "timestamp": "2026-11-10T14:04:00.000Z",
+      "vessel": {
+        "mmsi": 367000014,
+        "imo": 9222222,
+        "destination": "DUMBO",
+        "eta": {
+          "month": 11,
+          "day": 10,
+          "hour": 20,
+          "minute": 0
+        },
+        "navStatus": 8
+      }
+    }
+  ]
+}

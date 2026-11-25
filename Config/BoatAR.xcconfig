@@ -1,0 +1,8 @@
+// Build settings for the BoatAR app target.
+//
+// RELAY_URL is the relay's targets socket, /v2/targets (relay/PROTOCOL.md). It is not committed: put it in
+// Config/Local.xcconfig (git-ignored; copy Local.xcconfig.example). Empty means "no relay": the app runs and
+// shows zero vessels. xcconfig treats // as a comment, so write the scheme as ws:/$()/ (the $() expands to nothing).
+RELAY_URL =
+
+#include? "Local.xcconfig"

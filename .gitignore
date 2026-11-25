@@ -1,0 +1,39 @@
+.DS_Store
+xcuserdata/
+DerivedData/
+.build/
+.swiftpm/
+*.xcresult
+fastlane/report.xml
+fastlane/test_output/
+*.ipa
+*.dSYM.zip
+*.p8
+.env*
+vendor/bundle/
+.bundle/
+
+# Local relay URL (Config/Local.xcconfig.example)
+Config/Local.xcconfig
+node_modules/
+!.env.example
+
+# Per-person Claude Code settings
+.claude/settings.local.json
+
+# Python bytecode (scripts/ui-test-report.py)
+__pycache__/
+
+# Live recordings (npm run record) are for looking at, never for committing
+relay/fixtures/aisstream-*.jsonl
+
+# Signing material and keys: never committed
+*.p12
+*.mobileprovision
+*.cer
+*.pem
+*.key
+*.keychain-db
+
+# scripts/demo.sh build output
+build/

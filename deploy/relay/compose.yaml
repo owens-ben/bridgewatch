@@ -1,0 +1,48 @@
+# The production relay on the deploy host. deploy.sh runs it; see deploy/README.md. The project name matches the container the
+# relay ran as before deploys came from this repo, so the first deploy replaces it in place.
+name: boat-ar-relay
+
+services:
+  relay:
+    image: ${RELAY_IMAGE:?set by deploy.sh}
+    # Built on the host by deploy.sh; never pulled.
+    pull_policy: never
+    # AISSTREAM_API_KEY lives only on the host, outside the repo.
+    env_file: ${RELAY_ENV_FILE:?set by deploy.sh}
+    environment:
+      PORT: "8080"
+      # The public listener, for the Cloudflare Tunnel (deploy/edge, which reaches it as relay:8081 on this project's
+      # network). It always asks the app token and serves only the WebSocket paths. Never publish it on a host port.
+      # It starts only with a valid APP_TOKEN in relay.env; without one it stays off (relay_public_listener_up 0) and
+      # the main listener runs as before.
+      PUBLIC_PORT: "8081"
+      # The vessel census (relay/README.md, "Census"): which boats recur, kept in the volume below across deploys.
+      CENSUS_FILE: /data/census.json
+    volumes:
+      - census:/data
+    # The main listener: the local network, no token, /healthz and /metrics.
+    ports:
+      - "${RELAY_HOST_PORT:?set by deploy.sh}:8080"
+    expose:
+      - "8081"
+    restart: unless-stopped
+    init: true
+    mem_limit: 256m
+    # autoheal on the host restarts containers whose health check fails (relay/PROTOCOL.md, /healthz).
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:8080/healthz"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+      # Checks every 2 s until the first pass, so deploy.sh's `up --wait` returns quickly.
+      start_interval: 2s
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "5"
+
+# Survives `up` and image replacements; `docker compose down -v` would delete it.
+volumes:
+  census:

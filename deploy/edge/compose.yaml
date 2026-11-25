@@ -1,0 +1,31 @@
+# The public edge on the deploy host: the Cloudflare Tunnel connector. It dials out to Cloudflare, so the host opens no inbound port
+# and the router stays closed. It joins the relay's compose network (no host networking), and the tunnel's public
+# hostname (set in the Cloudflare dashboard) points at http://relay:8081, the relay's public listener, which is on that
+# network only and never published on a host port. See deploy/README.md, "Public edge".
+name: bridgewatch-edge
+
+services:
+  cloudflared:
+    # A tag, not a digest: pin it on the host with the command in deploy/README.md, "Public edge".
+    image: cloudflare/cloudflared:2026.10.7
+    # TUNNEL_TOKEN comes from the env file, never from the repo.
+    command: tunnel --no-autoupdate run
+    env_file: ${TUNNEL_ENV_FILE:?set by up.sh}
+    networks:
+      - relay
+    restart: unless-stopped
+    mem_limit: 128m
+    # No health check on purpose: the image has no shell, and cloudflared reconnects by itself. Watch the public
+    # address instead (deploy/README.md: `npm run check-edge`, and an uptime monitor on the public hostname).
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
+
+networks:
+  # The default network of the relay's compose project (deploy/relay/compose.yaml, project boat-ar-relay). It must
+  # exist first: deploy the relay before running up.sh.
+  relay:
+    name: boat-ar-relay_default
+    external: true

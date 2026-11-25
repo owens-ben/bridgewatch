@@ -1,0 +1,11 @@
+# The smoke set: scripts/ui-test.sh smoke (and the start of every `changed` run). One existing test per line,
+# `Class/testName`. Each covers one thing that, if it breaks, makes the app unusable; keep it to about eight.
+BoatARUITests/testFirstLaunchSkipGoesStraightToTheList
+BoatARUITests/testVesselCountMatchesFixture
+BoatARUITests/testRowOpensDetailSheet
+BoatARUITests/testMapMarkersHaveA44PointTouchTarget
+BoatARUITests/testClosestCardShowsItOnTheMap
+BoatARUITests/testCameraLabelsVesselsAtTheirBearings
+BoatARUITests/testLaunchShowsNearbyTitleAndHingeState
+BoatARUITests/testListShowsTrainsUnderTheBoats
+BoatARUITests/testOfflineBannerKeepsListFrozen

@@ -1,0 +1,36 @@
+# Which UI tests a changed path adds to the smoke set (scripts/ui-test.sh changed). One line per rule:
+#   <path glob> <target>[,<target>...]
+# The glob is a shell pattern in which `*` also matches `/`. A target is `file:<Source.swift>` (every test in that
+# file; they are all extensions of BoatARUITests), `BoatARUITests/<testName>`, or `all`. A path that matches no rule
+# adds nothing: the smoke set covers it. `scripts/ui-test.sh selftest` checks every target still exists.
+App/Train*                  file:TrainUITests.swift
+App/Camera*                 file:SightlineUITests.swift,BoatARUITests/testCameraLabelsVesselsAtTheirBearings,BoatARUITests/testCameraShowsAccuracyPillWhenCompassIsPoor,BoatARUITests/testZoomButtonsWidenAndNarrowTheView,BoatARUITests/testFindInCameraHighlightsTheVessel,BoatARUITests/testCameraWithoutLocationOffersToTurnItOn,BoatARUITests/testTrainDetailFindsItInTheCamera,BoatARUITests/testCameraLabelsTrainsInSightAndUnderground
+App/DeviceSensors.swift     file:SightlineUITests.swift,BoatARUITests/testCameraLabelsVesselsAtTheirBearings,BoatARUITests/testCameraShowsAccuracyPillWhenCompassIsPoor,BoatARUITests/testCameraWithoutLocationOffersToTurnItOn
+App/EyeHeightSetting.swift  file:SightlineUITests.swift,BoatARUITests/testSettingsHeightByHand
+App/Vessel*                 file:BoatARUITests.swift,file:TrainUITests.swift,file:MapCardUITests.swift,file:ListMapUITests.swift,BoatARUITests/testStaleTrainDataReplacesLive,BoatARUITests/testFreshTrainDataStaysLive
+App/CameraFilterMenu.swift  file:CameraFilterUITests.swift
+App/CameraScreen.swift      file:CameraFilterUITests.swift
+App/BrowseFilterMenu.swift  file:ListMapUITests.swift
+App/UnitsSetting.swift      file:ListMapUITests.swift,BoatARUITests/testRowOpensDetailSheet
+App/MapCard.swift           file:MapCardUITests.swift
+App/MapKey.swift            BoatARUITests/testMapKeyListsEveryCategory
+App/TargetID.swift          file:MapCardUITests.swift
+App/Permissions*            BoatARUITests/testFirstLaunchSkipGoesStraightToTheList,BoatARUITests/testContinueAsksForLocationThenShowsTheList,BoatARUITests/testPermissionsButtonsEndTheScrollAtAccessibilityTextSizes,BoatARUITests/testCameraAsksForAccessWhenSkippedAtFirstLaunch,BoatARUITests/testFirstScreenSaysWhereTheDataComesFrom
+App/Settings*               BoatARUITests/testUnitsSettingsFitAtTheLargestTextSize,BoatARUITests/testSpeedUnitsCanBeChosen,BoatARUITests/testSettingsHeightByHand,BoatARUITests/testSettingsNightModeAndRelayAddress,BoatARUITests/testShowsBuildNumberAndGitSHA,BoatARUITests/testUndergroundToggleHidesUndergroundTrains,BoatARUITests/testSettingsShowsDataAndCredits
+App/ContentView.swift       file:BoatARUITests.swift
+App/BoatARApp.swift         file:BoatARUITests.swift
+App/HingeMonitor.swift      BoatARUITests/testLaunchShowsNearbyTitleAndHingeState,BoatARUITests/testRegularWidthShowsListAndMapSideBySide
+App/Theme.swift             BoatARUITests/testSettingsNightModeAndRelayAddress
+Packages/BoatCore/*Sightline*  file:SightlineUITests.swift
+Packages/BoatCore/*Train*   file:TrainUITests.swift
+Packages/BoatCore/*Browse*  file:ListMapUITests.swift
+Packages/BoatCore/*Units*   file:ListMapUITests.swift,file:CameraFilterUITests.swift
+Packages/BoatCore/*ListSection*  file:ListMapUITests.swift,file:SightlineUITests.swift
+Packages/BoatCore/*MapCardLayout*  file:MapCardUITests.swift,BoatARUITests/testMapButtonsClearTheStatusColumn
+Packages/BoatCore/*MapControls*  BoatARUITests/testMapButtonsClearTheStatusColumn
+Packages/BoatAIS/*          BoatARUITests/testOfflineBannerKeepsListFrozen,BoatARUITests/testVesselCountFollowsReplayedFeed,BoatARUITests/testNoOfflineBannerWhileLive
+BoatARUITests/*             all
+BoatAR.xcodeproj/*          all
+Config/*                    all
+App/Data*                   file:CreditsUITests.swift
+Packages/BoatCore/*Data*    file:CreditsUITests.swift
